@@ -1,0 +1,12 @@
+swagger:
+  outputDirectory: ./dist
+  entryFile: 
+    - ./src/modules/**/*.controller.*
+  outputFormat: openapi_3
+  host: localhost:3000
+  version: 1.0
+  name: TypeScript REST Boilerplate App
+  description: TypeScript REST Boilerplate
+  produces: [application/json]
+  ignore:
+    - /node_modules/**  
