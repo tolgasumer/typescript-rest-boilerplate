@@ -20,7 +20,7 @@ DB configuration: ```/ormconfig.json```
 }
 ```
 
-# Initial setup
+## Initial setup
 ```
 npm install
 ```
@@ -31,7 +31,7 @@ npm install
 npm run swagger
 ```
 
-# Build & Run
+## Build & Run
 ```
 npm run build && npm run start
 ```
